@@ -8,7 +8,7 @@ $password = ConvertTo-SecureString $PASSWORD_FOR_USERS -AsPlainText -Force
 New-ADOrganizationalUnit -Name _USERS -ProtectedFromAccidentalDeletion $false
 
 
-# Craete users in AD, example of a user in USER_FIRST_LAST_LIST = "MOUSSAOUI ABDESLAM#
+# Create users in AD, example of a user in USER_FIRST_LAST_LIST = "MOUSSAOUI ABDESLAM#
 foreach ($n in $USER_FIRST_LAST_LIST) {
     $first = $n.Split(" ")[0].ToLower()     # -> moussaoui #
     $last = $n.Split(" ")[1].ToLower()           # -> abdeslam #

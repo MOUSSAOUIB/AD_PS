@@ -8,3 +8,10 @@ run unsigned scripts from any source
 
 # Resources
 >https://www.youtube.com/watch?v=MHsI8hJmggI
+
+
+
+#python script
+
+use names labrary 
+> pip install names
