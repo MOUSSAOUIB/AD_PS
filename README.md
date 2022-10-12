@@ -13,12 +13,12 @@ run unsigned scripts from any source
 
 # python script
 
-use names labrary 
+use 'names' library 
 > pip install names
 
 # Tasks
-> Intall AD domaine services
-> Promote domaine controller
-> Install and configure NICs, RAS, DHCP, DNS
-> Create users using Powershell script
-> Joing a windows client to the domaine created
+ Intall AD domaine services
+ Promote domaine controller
+ Install and configure NICs, RAS, DHCP, DNS
+ Create users using Powershell script
+Joing a windows client to the domaine created
